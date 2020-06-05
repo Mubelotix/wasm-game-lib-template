@@ -21,7 +21,7 @@ pub async fn start() -> Result<(), JsValue> {
     loop {
         for event in window.poll_events() {
             // do something with events
-            log(&format!("{:?}", event));
+            log!("{:?}", event);
         }
 
         canvas.clear();
@@ -29,6 +29,4 @@ pub async fn start() -> Result<(), JsValue> {
 
         sleep(Duration::from_millis(16)).await;
     }
-
-    Ok(())
 }
