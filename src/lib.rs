@@ -3,7 +3,7 @@ use wasm_game_lib::graphics::image::Image;
 use wasm_game_lib::graphics::sprite::Sprite;
 use wasm_game_lib::inputs::event::Event;
 use wasm_game_lib::graphics::window::Window;
-use wasm_game_lib::system::log;
+use wasm_game_lib::log;
 use wasm_game_lib::inputs::event::types::*;
 use wasm_game_lib::system::sleep;
 use std::time::Duration;
